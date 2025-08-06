@@ -1,22 +1,41 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    char letra1 = 'C';
+    char codigo1[5] = "C01";
+    char nome1[20] = "Fortaleza";
+    int numero1 = 2617718;
+    float km1 = 313.8;
+    float pib1 = 73.4;
+    int turista1 = 15;
+
+    printf("Carta 1:\n");
+    printf("Estado: %c\n", letra1);
+    printf("Código da carta: %s\n", codigo1);
+    printf("Nome da Cidade: %s\n", nome1);
+    printf("População: %d\n", numero1);
+    printf("Área por KM: %.2f\n", km1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", turista1);
+
+    printf("\n"); 
     
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    char letra2 = 'R';
+    char codigo2[5] = "R02";
+    char nome2[50] = "Rio de Janeiro";
+    int numero2 = 16055174;
+    float km2 = 1200.0;
+    float pib2 = 949.301;
+    int turista2 = 16;
+
+    printf("Carta 2:\n");
+    printf("Estado: %c\n", letra2);
+    printf("Código da carta: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", nome2);
+    printf("População: %d\n", numero2);
+    printf("Área por KM: %.2f\n", km2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", turista2);
 
     return 0;
-}
